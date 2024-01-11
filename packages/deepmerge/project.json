@@ -11,8 +11,7 @@
     "npm-publish": {
       "executor": "@aaos/nx-publish:publish",
       "options": {
-        "projectFolderPath": "./packages/deepmerge",
-        "access": "public"
+        "projectFolderPath": "./packages/deepmerge"
       }
     },
     "github-release": {

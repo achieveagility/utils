@@ -11,8 +11,7 @@
     "npm-publish": {
       "executor": "@aaos/nx-publish:publish",
       "options": {
-        "projectFolderPath": "./packages/config-eslint",
-        "access": "public"
+        "projectFolderPath": "./packages/config-eslint"
       }
     },
     "github-release": {

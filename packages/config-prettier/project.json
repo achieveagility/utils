@@ -11,8 +11,7 @@
     "npm-publish": {
       "executor": "@aaos/nx-publish:publish",
       "options": {
-        "projectFolderPath": "./packages/config-prettier",
-        "access": "public"
+        "projectFolderPath": "./packages/config-prettier"
       }
     },
     "github-release": {
