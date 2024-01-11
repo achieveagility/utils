@@ -13,7 +13,6 @@
   },
   "devDependencies": {
     "@jscutlery/semver": "^4.2.0",
-    "@swc-node/register": "1.4.2",
     "@tsconfig/node20": "^20.1.2",
     "@types/node": "20.11.0",
     "nx": "17.2.8",
