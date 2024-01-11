@@ -10,14 +10,14 @@ export const configure =
     const isValid = (val: unknown) =>
       val === undefined || val === null || isObject(val);
 
-    if (params.some((p) => !isValid(p))) {
+    if (params.some((p: any) => !isValid(p))) {
       throw new Error(
         "All merge parameters are expected to be objects, null, or undefined."
       );
     }
 
     return deepmergelib.all(
-      params.map((p) => p || {}),
+      params.map((p: any) => p || {}),
       conf
     ) as T;
   };
