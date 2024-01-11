@@ -1,0 +1,25 @@
+{
+  "name": "@aaos/config-eslint",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "targets": {
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "postTargets": ["npm-publish", "github-release"]
+      }
+    },
+    "npm-publish": {
+      "executor": "@aaos/nx-publish:publish",
+      "options": {
+        "projectFolderPath": "./packages/config-eslint"
+      }
+    },
+    "github-release": {
+      "executor": "@jscutlery/semver:github",
+      "options": {
+        "tag": "{tag}",
+        "notes": "{notes}"
+      }
+    }
+  }
+}

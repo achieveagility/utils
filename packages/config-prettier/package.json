@@ -1,0 +1,16 @@
+{
+  "name": "@aaos/config-prettier",
+  "main": "prettierrc.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/achieveagility/utils.git",
+    "directory": "packages/config-prettier"
+  },
+  "homepage": "https://github.com/achieveagility/utils/tree/main/packages/config-prettier#readme",
+  "scripts": {
+    "build": "echo No build"
+  },
+  "devDependencies": {
+    "@aaos/nx-publish": "^1.1.0"
+  }
+}

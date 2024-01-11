@@ -1,0 +1,26 @@
+{
+  "name": "@aaos/config-eslint",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/achieveagility/utils.git",
+    "directory": "packages/config-eslint"
+  },
+  "homepage": "https://github.com/achieveagility/utils/tree/main/packages/config-eslint#readme",
+  "scripts": {
+    "build": "echo No build"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-security": "^2.1.0"
+  },
+  "devDependencies": {
+    "@aaos/nx-publish": "^1.1.0"
+  }
+}
