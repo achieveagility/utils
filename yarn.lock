@@ -9,7 +9,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@aaos/config-eslint@workspace:packages/config-eslint"
   dependencies:
-    "@aaos/nx-publish": "npm:^1.1.4"
+    "@aaos/nx-publish": "npm:^1.1.5"
     "@typescript-eslint/eslint-plugin": "npm:^6.18.1"
     "@typescript-eslint/parser": "npm:^6.18.1"
     eslint-config-prettier: "npm:^9.1.0"
@@ -24,7 +24,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@aaos/config-prettier@workspace:packages/config-prettier"
   dependencies:
-    "@aaos/nx-publish": "npm:^1.1.4"
+    "@aaos/nx-publish": "npm:^1.1.5"
   languageName: unknown
   linkType: soft
 
@@ -32,7 +32,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@aaos/deepmerge@workspace:packages/deepmerge"
   dependencies:
-    "@aaos/nx-publish": "npm:^1.1.4"
+    "@aaos/nx-publish": "npm:^1.1.5"
     deepmerge: "npm:^4.3.1"
     tsup: "npm:^8.0.1"
     typescript: "npm:^5.3.3"
@@ -40,10 +40,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@aaos/nx-publish@npm:^1.1.4":
-  version: 1.1.4
-  resolution: "@aaos/nx-publish@npm:1.1.4"
-  checksum: d73e3373c586f114a7043e2a697d2bcf6b757087eab2ac50f3a519c63b7a71abbcabc74aae6f8b9cb49a4ca50d22721e761e50a4758254ed0a6c8ea109b0d49d
+"@aaos/nx-publish@npm:^1.1.5":
+  version: 1.1.5
+  resolution: "@aaos/nx-publish@npm:1.1.5"
+  checksum: 354356dedeab34c0a699d39348a5b924c92b8183c4643ea1a71cbd0844c6a66b54bc1ba40fb558f92ed0dc274dab58fad46038cd5f79a6704087496deea92cf2
   languageName: node
   linkType: hard
 
