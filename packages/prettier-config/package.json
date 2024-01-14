@@ -1,13 +1,13 @@
 {
-  "name": "@aaos/config-prettier",
+  "name": "@aaos/prettier-config",
   "version": "0.1.4",
   "main": "prettierrc.json",
   "repository": {
     "type": "git",
     "url": "https://github.com/achieveagility/utils.git",
-    "directory": "packages/config-prettier"
+    "directory": "packages/prettier-config"
   },
-  "homepage": "https://github.com/achieveagility/utils/tree/main/packages/config-prettier#readme",
+  "homepage": "https://github.com/achieveagility/utils/tree/main/packages/prettier-config#readme",
   "scripts": {
     "build": "echo No build"
   },
