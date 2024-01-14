@@ -22,6 +22,6 @@
     "eslint-plugin-security": "^2.1.0"
   },
   "devDependencies": {
-    "@aaos/nx-publish": "^1.1.5"
+    "@aaos/nx-publish": "^1.2.0"
   }
 }

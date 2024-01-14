@@ -12,6 +12,6 @@
     "build": "echo No build"
   },
   "devDependencies": {
-    "@aaos/nx-publish": "^1.1.5"
+    "@aaos/nx-publish": "^1.2.0"
   }
 }
