@@ -1,5 +1,5 @@
 {
-  "name": "@aaos/config-eslint",
+  "name": "@aaos/eslint-config",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "targets": {
     "version": {
