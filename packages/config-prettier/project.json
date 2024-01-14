@@ -5,6 +5,7 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
+        "push": true,
         "postTargets": ["npm-publish", "github-release"]
       }
     },
