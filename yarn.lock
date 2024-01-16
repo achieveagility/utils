@@ -29,6 +29,7 @@ __metadata:
     eslint-plugin-import: "npm:^2.29.1"
     eslint-plugin-prettier: "npm:^5.1.3"
     eslint-plugin-security: "npm:^2.1.0"
+    tsup: "npm:^8.0.1"
   languageName: unknown
   linkType: soft
 
