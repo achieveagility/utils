@@ -30,6 +30,8 @@
   },
   "devDependencies": {
     "@aaos/nx-publish": "^1.2.0",
+    "@types/eslint": "^8",
+    "eslint": "^8.56.0",
     "tsup": "^8.0.1"
   }
 }

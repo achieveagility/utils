@@ -1,4 +1,7 @@
-module.exports = {
+import { type Linter } from "eslint";
+
+// TODO: switch to flat config, see https://eslint.org/docs/latest/use/configure/configuration-files-new
+const config: Linter.Config = {
   parser: "@typescript-eslint/parser",
   extends: [
     "eslint:recommended",
@@ -35,3 +38,5 @@ module.exports = {
     ],
   },
 };
+
+export default config;
