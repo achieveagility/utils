@@ -1,8 +1,11 @@
 {
   "name": "@aaos/eslint-config",
   "version": "0.0.1",
-  "main": "index.js",
   "license": "MIT",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/achieveagility/utils.git",
@@ -10,8 +13,12 @@
   },
   "homepage": "https://github.com/achieveagility/utils/tree/main/packages/eslint-config#readme",
   "scripts": {
-    "build": "echo No build"
+    "build": "tsup",
+    "watch": "tsup --watch"
   },
+  "files": [
+    "/dist/**/*"
+  ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.18.1",
     "@typescript-eslint/parser": "^6.18.1",
@@ -22,6 +29,9 @@
     "eslint-plugin-security": "^2.1.0"
   },
   "devDependencies": {
-    "@aaos/nx-publish": "^1.2.0"
+    "@aaos/nx-publish": "^1.2.0",
+    "@types/eslint": "^8",
+    "eslint": "^8.56.0",
+    "tsup": "^8.0.1"
   }
 }
