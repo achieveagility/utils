@@ -1,7 +1,5 @@
-import { type Linter } from "eslint";
-
 // TODO: switch to flat config, see https://eslint.org/docs/latest/use/configure/configuration-files-new
-const config: Linter.Config = {
+const config = {
   parser: "@typescript-eslint/parser",
   extends: [
     "eslint:recommended",
@@ -9,7 +7,7 @@ const config: Linter.Config = {
     "plugin:import/typescript",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
-    "plugin:security/recommended",
+    "plugin:security/recommended-legacy",
   ],
   plugins: ["@typescript-eslint"],
   parserOptions: {
