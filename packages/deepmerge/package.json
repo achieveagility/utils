@@ -27,7 +27,7 @@
     "deepmerge": "^4.3.1"
   },
   "devDependencies": {
-    "@aaos/nx-publish": "^1.2.0",
+    "@aaos/nx-publish": "^1.3.1",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
     "vitest": "^1.2.0"
