@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [0.1.0](https://github.com/achieveagility/utils/compare/@aaos/eslint-config-0.0.5...@aaos/eslint-config-0.1.0) (2024-01-17)
+
+
+### Features
+
+* add eslint unicorn ([#21](https://github.com/achieveagility/utils/issues/21)) ([5dd8d84](https://github.com/achieveagility/utils/commit/5dd8d8420611ea4dead99d7e57ce8ddb3a087dd0))
+
+
+
 ## [0.0.5](https://github.com/achieveagility/utils/compare/@aaos/eslint-config-0.0.4...@aaos/eslint-config-0.0.5) (2024-01-16)
 
 
