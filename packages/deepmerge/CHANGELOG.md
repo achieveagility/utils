@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [0.2.0](https://github.com/achieveagility/utils/compare/@aaos/deepmerge-0.1.4...@aaos/deepmerge-0.2.0) (2024-01-17)
+
+
+### Features
+
+* update publish ([#23](https://github.com/achieveagility/utils/issues/23)) ([2512878](https://github.com/achieveagility/utils/commit/2512878a6eae76221e1c00cce9efd3a2e86922e7))
+
+
+
 ## [0.1.4](https://github.com/achieveagility/utils/compare/@aaos/deepmerge-0.1.3...@aaos/deepmerge-0.1.4) (2024-01-14)
 
 
