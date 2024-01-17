@@ -8,8 +8,9 @@ const config = {
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "plugin:security/recommended-legacy",
+    "plugin:unicorn/recommended",
   ],
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "check-file"],
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: "module",
@@ -32,6 +33,21 @@ const config = {
         alphabetize: {
           order: "asc",
         },
+      },
+    ],
+    "check-file/filename-naming-convention": [
+      "error",
+      {
+        "**/*.{js,ts}": "KEBAB_CASE",
+      },
+      {
+        ignoreMiddleExtensions: true,
+      },
+    ],
+    "check-file/folder-naming-convention": [
+      "error",
+      {
+        "src/**/": "KEBAB_CASE",
       },
     ],
   },
