@@ -27,6 +27,7 @@ const config = {
     },
   },
   rules: {
+    "import/no-unresolved": "off",
     "import/order": [
       "error",
       {
@@ -50,6 +51,7 @@ const config = {
         "src/**/": "KEBAB_CASE",
       },
     ],
+    "unicorn/prevent-abbreviations": "off",
   },
 };
 
