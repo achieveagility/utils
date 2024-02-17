@@ -51,6 +51,7 @@ const config = {
         "src/**/": "KEBAB_CASE",
       },
     ],
+    "unicorn/no-null": "off",
     "unicorn/prevent-abbreviations": "off",
   },
 };
