@@ -2,6 +2,20 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.2](https://github.com/achieveagility/utils/compare/@aaos/tailwind-0.1.1...@aaos/tailwind-0.1.2) (2024-05-08)
+
+### Dependency Updates
+
+* `@aaos/deepmerge` updated to version `0.3.1`
+* `@aaos/eslint-config` updated to version `0.3.2`
+* `@aaos/prettier-config` updated to version `0.1.1`
+
+### Bug Fixes
+
+* add track deps ([#28](https://github.com/achieveagility/utils/issues/28)) ([94b2c54](https://github.com/achieveagility/utils/commit/94b2c54575db73ee81f6161da303f3be1d2ea212))
+
+
+
 ## [0.1.1](https://github.com/achieveagility/utils/compare/@aaos/tailwind-0.1.0...@aaos/tailwind-0.1.1) (2024-05-08)
 
 
