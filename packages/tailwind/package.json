@@ -16,6 +16,9 @@
     "format:check": "prettier 'src/**/*.ts' --check",
     "lint": "eslint 'src/**/*.ts'"
   },
+  "files": [
+    "/dist/**/*"
+  ],
   "keywords": [],
   "author": "",
   "license": "MIT",
