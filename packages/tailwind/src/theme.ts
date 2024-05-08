@@ -1,5 +1,5 @@
 import { deepmerge } from '@aaos/deepmerge';
-import tailwindDefaultTheme from 'tailwindcss/defaultTheme';
+import { defaultTheme } from './dist/default-theme.js';
 
 const achieveAgilityTheme = {
   fontSize: {
@@ -58,5 +58,5 @@ const achieveAgilityTheme = {
 export function createTheme<
   T extends Record<string, unknown> = Record<string, unknown>,
 >(theme?: Record<string, unknown>) {
-  return deepmerge<T>(tailwindDefaultTheme, achieveAgilityTheme, theme);
+  return deepmerge<T>(defaultTheme, achieveAgilityTheme, theme);
 }

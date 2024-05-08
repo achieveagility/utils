@@ -1,6 +1,8 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "module": "node16",
+    "target": "es2022",
     "esModuleInterop": true,
     "baseUrl": "./src"
   }
