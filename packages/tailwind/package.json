@@ -1,0 +1,34 @@
+{
+  "name": "@aaos/tailwind",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "show": "tsx show.ts",
+    "build": "tsup",
+    "watch": "tsup --watch",
+    "format": "prettier 'src/**/*.ts' --write",
+    "format:check": "prettier 'src/**/*.ts' --check",
+    "lint": "eslint 'src/**/*.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "prettier": "@aaos/prettier-config",
+  "dependencies": {
+    "@aaos/deepmerge": "workspace:^",
+    "tailwindcss": "^3.3.5"
+  },
+  "devDependencies": {
+    "@aaos/eslint-config": "workspace:^",
+    "@aaos/prettier-config": "workspace:^",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "tsup": "7.2.0",
+    "tsx": "4.1.1",
+    "typescript": "5.2.2"
+  }
+}

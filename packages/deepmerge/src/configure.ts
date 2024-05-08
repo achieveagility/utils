@@ -1,23 +1,27 @@
-import deepmergelib from "deepmerge";
+import deepmergelib from 'deepmerge';
 
-function isObject(value?: unknown): value is Record<string, any> {
-  return Object.prototype.toString.call(value) === "[object Object]";
+function isObject(value?: unknown): value is Record<string, unknown> {
+  return Object.prototype.toString.call(value) === '[object Object]';
 }
 
-export const configure =
-  (conf?: object) =>
-  <T = unknown>(...params: any): T => {
-    const isValid = (val: unknown) =>
-      val === undefined || val === null || isObject(val);
+function isValid(val: unknown) {
+  return val === undefined || val === null || isObject(val);
+}
 
+export function configure(conf?: object) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  return <T = unknown>(...params: any): T => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     if (params.some((p: any) => !isValid(p))) {
       throw new Error(
-        "All merge parameters are expected to be objects, null, or undefined."
+        'All merge parameters are expected to be objects, null, or undefined.',
       );
     }
 
     return deepmergelib.all(
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       params.map((p: any) => p || {}),
-      conf
+      conf,
     ) as T;
   };
+}
