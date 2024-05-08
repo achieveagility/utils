@@ -1,0 +1,22 @@
+{
+    "namedInputs": {
+      "default": ["{projectRoot}/**/*"],
+      "nonTest": ["!{projectRoot}/**/*.spec.tsx"]
+    },
+    "targetDefaults": {
+      "build": {
+        "inputs": ["default", "^nonTest"],
+        "dependsOn": ["^build"]
+      },
+      "version": {
+        "dependsOn": ["^version"]
+      },
+      "dev": {
+        "dependsOn": ["^build"]
+      },
+      "test": {
+        "inputs": ["default", "^nonTest"]
+      }
+    }
+  }
+  

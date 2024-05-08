@@ -6,6 +6,7 @@
       "executor": "@jscutlery/semver:version",
       "options": {
         "push": true,
+        "trackDeps": true,
         "postTargets": ["npm-publish", "github-release"]
       }
     },
