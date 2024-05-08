@@ -1,7 +1,7 @@
 import { deepmerge } from '@aaos/deepmerge';
 import { defaultTheme } from './dist/default-theme.js';
 
-const achieveAgilityTheme = {
+const aaTheme = {
   fontSize: {
     '4xs': ['0.25rem', { lineHeight: '0.25rem' }],
     '3xs': ['0.5rem', { lineHeight: '0.75rem' }],
@@ -12,6 +12,7 @@ const achieveAgilityTheme = {
     xl: ['1.5rem', { lineHeight: '2rem' }],
     '2xl': ['1.75rem', { lineHeight: '2.25rem' }],
     '3xl': ['2rem', { lineHeight: '2.5rem' }],
+    '4xl': ['2.25rem', { lineHeight: '2.75rem' }],
   },
   spacing: {
     '3xs': '1px',
@@ -58,5 +59,5 @@ const achieveAgilityTheme = {
 export function createTheme<
   T extends Record<string, unknown> = Record<string, unknown>,
 >(theme?: Record<string, unknown>) {
-  return deepmerge<T>(defaultTheme, achieveAgilityTheme, theme);
+  return deepmerge<T>(defaultTheme, aaTheme, theme);
 }
