@@ -12,7 +12,7 @@ const aaTheme = {
     xl: ['1.5rem', { lineHeight: '2rem' }],
     '2xl': ['1.75rem', { lineHeight: '2.25rem' }],
     '3xl': ['2rem', { lineHeight: '2.5rem' }],
-    '4xl': ['2.25rem', { lineHeight: '2.75rem' }],
+    '4xl': ['2.25rem', { lineHeight: '2.75rem' }],   
   },
   spacing: {
     '3xs': '1px',
@@ -35,6 +35,14 @@ const aaTheme = {
     md: '4px',
     lg: '8px',
     xl: '10px',
+  },
+  borderRadius: {
+    DEFAULT: '4px',
+    xs: '2px',
+    sm: '6px',
+    md: '8px',
+    lg: '12px',
+    xl: '16px',
   },
   extend: {
     maxWidth: {
