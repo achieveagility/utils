@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.1](https://github.com/achieveagility/utils/compare/@aaos/prettier-config-0.1.0...@aaos/prettier-config-0.1.1) (2024-05-08)
+
+
+### Bug Fixes
+
+* add track deps ([#28](https://github.com/achieveagility/utils/issues/28)) ([94b2c54](https://github.com/achieveagility/utils/commit/94b2c54575db73ee81f6161da303f3be1d2ea212))
+
+
+
 # [0.1.0](https://github.com/achieveagility/utils/compare/@aaos/prettier-config-0.0.2...@aaos/prettier-config-0.1.0) (2024-01-17)
 
 
