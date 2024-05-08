@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.4](https://github.com/achieveagility/utils/compare/@aaos/tailwind-0.1.3...@aaos/tailwind-0.1.4) (2024-05-08)
+
+
+### Bug Fixes
+
+* update theme ([#33](https://github.com/achieveagility/utils/issues/33)) ([e91298a](https://github.com/achieveagility/utils/commit/e91298a35e37edc374c8b0265e31ce4ca6b30de9))
+
+
+
 ## [0.1.3](https://github.com/achieveagility/utils/compare/@aaos/tailwind-0.1.2...@aaos/tailwind-0.1.3) (2024-05-08)
 
 
