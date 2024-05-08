@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [0.3.0](https://github.com/achieveagility/utils/compare/@aaos/deepmerge-0.2.0...@aaos/deepmerge-0.3.0) (2024-05-08)
+
+
+### Features
+
+* add tailwind package ([#26](https://github.com/achieveagility/utils/issues/26)) ([f75ebd5](https://github.com/achieveagility/utils/commit/f75ebd536228984370a9de2a274c165122f1b2b7))
+
+
+
 # [0.2.0](https://github.com/achieveagility/utils/compare/@aaos/deepmerge-0.1.4...@aaos/deepmerge-0.2.0) (2024-01-17)
 
 
