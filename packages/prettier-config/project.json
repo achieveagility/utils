@@ -7,6 +7,7 @@
       "options": {
         "push": true,
         "trackDeps": true,
+        "commitMessageFormat": "chore({projectName}): release version {version} [skip ci]",
         "postTargets": ["npm-publish", "github-release"]
       }
     },
