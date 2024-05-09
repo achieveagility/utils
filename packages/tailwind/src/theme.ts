@@ -36,6 +36,16 @@ const aaTheme = {
     lg: '8px',
     xl: '10px',
   },
+  borderRadius: {
+    none: '0px',
+    sm: '2px',
+    md: '4px',
+    lg: '8px',
+    xl: '10px',
+    '2xl': '20px',
+    '3xl': '30px',
+    full: '9999px',
+  },
   extend: {
     maxWidth: {
       '2xl': '40rem',
