@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.6](https://github.com/achieveagility/utils/compare/@aaos/tailwind-0.1.5...@aaos/tailwind-0.1.6) (2024-05-09)
+
+
+### Bug Fixes
+
+* add radius ([#35](https://github.com/achieveagility/utils/issues/35)) ([61d3cab](https://github.com/achieveagility/utils/commit/61d3cababadb644ed03f69ea450d425c548247bb))
+
+
+
 ## [0.1.5](https://github.com/achieveagility/utils/compare/@aaos/tailwind-0.1.4...@aaos/tailwind-0.1.5) (2024-05-09)
 
 ### Dependency Updates
