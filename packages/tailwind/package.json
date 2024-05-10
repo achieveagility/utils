@@ -13,7 +13,7 @@
   },
   "scripts": {
     "show": "tsx show.ts",
-    "build": "yarn build:theme && yarn build:lib",
+    "build": "pnpm build:theme && pnpm build:lib",
     "build:theme": "tsx scripts/build.ts",
     "build:lib": "tsup",
     "watch": "tsup --watch",

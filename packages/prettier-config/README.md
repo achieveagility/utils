@@ -1,7 +1,7 @@
 # @aaos/prettier-config
 
 ```
-yarn add -D prettier @aaos/prettier-config
+pnpm add -D prettier @aaos/prettier-config
 ```
 
 #### package.json
