@@ -1,7 +1,7 @@
 # @aaos/eslint-config
 
 ```
-yarn add -D eslint @aaos/eslint-config
+pnpm add -D eslint @aaos/eslint-config
 ```
 
 #### package.json
