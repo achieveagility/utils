@@ -2,6 +2,10 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.3](https://github.com/achieveagility/utils/compare/@aaos/prettier-config-0.1.2...@aaos/prettier-config-0.1.3) (2024-05-10)
+
+
+
 ## [0.1.2](https://github.com/achieveagility/utils/compare/@aaos/prettier-config-0.1.1...@aaos/prettier-config-0.1.2) (2024-05-09)
 
 
