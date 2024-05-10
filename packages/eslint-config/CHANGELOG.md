@@ -2,6 +2,10 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.3.4](https://github.com/achieveagility/utils/compare/@aaos/eslint-config-0.3.3...@aaos/eslint-config-0.3.4) (2024-05-10)
+
+
+
 ## [0.3.3](https://github.com/achieveagility/utils/compare/@aaos/eslint-config-0.3.2...@aaos/eslint-config-0.3.3) (2024-05-09)
 
 
