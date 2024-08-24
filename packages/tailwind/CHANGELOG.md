@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.11](https://github.com/achieveagility/utils/compare/@aaos/tailwind-0.1.10...@aaos/tailwind-0.1.11) (2024-08-24)
+
+### Dependency Updates
+
+* `@aaos/deepmerge` updated to version `0.3.6`
+
+
 ## [0.1.10](https://github.com/achieveagility/utils/compare/@aaos/tailwind-0.1.9...@aaos/tailwind-0.1.10) (2024-05-10)
 
 ### Dependency Updates
