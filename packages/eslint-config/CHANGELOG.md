@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [0.4.0](https://github.com/achieveagility/utils/compare/@aaos/eslint-config-0.3.5...@aaos/eslint-config-0.4.0) (2024-08-30)
+
+
+### Features
+
+* update eslint config format ([#45](https://github.com/achieveagility/utils/issues/45)) ([3b78de0](https://github.com/achieveagility/utils/commit/3b78de091f8b24a46dc502efa00aa2c98ce4190c))
+
+
+
 ## [0.3.5](https://github.com/achieveagility/utils/compare/@aaos/eslint-config-0.3.4...@aaos/eslint-config-0.3.5) (2024-05-10)
 
 
