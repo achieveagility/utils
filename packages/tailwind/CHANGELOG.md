@@ -2,6 +2,19 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [0.2.0](https://github.com/achieveagility/utils/compare/@aaos/tailwind-0.1.11...@aaos/tailwind-0.2.0) (2024-08-30)
+
+### Dependency Updates
+
+* `@aaos/deepmerge` updated to version `0.4.0`
+* `@aaos/eslint-config` updated to version `0.4.0`
+
+### Features
+
+* update eslint config format ([#45](https://github.com/achieveagility/utils/issues/45)) ([3b78de0](https://github.com/achieveagility/utils/commit/3b78de091f8b24a46dc502efa00aa2c98ce4190c))
+
+
+
 ## [0.1.11](https://github.com/achieveagility/utils/compare/@aaos/tailwind-0.1.10...@aaos/tailwind-0.1.11) (2024-08-24)
 
 ### Dependency Updates
