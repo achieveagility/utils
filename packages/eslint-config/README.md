@@ -8,14 +8,26 @@ pnpm add -D eslint @aaos/eslint-config
 
 ```json
 "scripts": {
-    "lint": "eslint 'src/**/*.ts'"
+    "lint": "eslint 'src/**/*.{ts,tsx}'"
 }
 ```
 
-#### .eslintrc.cjs
+#### eslint.config.js
 
 ```javascript
-module.exports = {
-  extends: ["@aaos"],
-};
+export { eslintConfig as default } from '@aaos/eslint-config';
+```
+
+```javascript
+import { eslintConfig } from '@aaos/eslint-config';
+
+export default [
+  ...eslintConfig,
+  // your modifications
+  {
+    rules: {
+      ...
+    },
+  },
+];
 ```
