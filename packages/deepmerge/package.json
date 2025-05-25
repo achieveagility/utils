@@ -37,10 +37,10 @@
     "@aaos/eslint-config": "workspace:^",
     "@aaos/nx-publish": "^1.4.0",
     "@aaos/prettier-config": "workspace:^",
-    "eslint": "^8.54.0",
-    "prettier": "^3.2.5",
-    "tsup": "^8.0.2",
-    "typescript": "^5.4.5",
-    "vitest": "^1.6.0"
+    "eslint": "^8.57.1",
+    "prettier": "^3.5.3",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^1.6.1"
   }
 }

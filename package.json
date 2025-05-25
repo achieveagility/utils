@@ -12,12 +12,12 @@
     "format:check": "nx run-many --target=format:check"
   },
   "devDependencies": {
-    "@jscutlery/semver": "^5.2.2",
+    "@jscutlery/semver": "^5.6.0",
     "@nx/devkit": "18.3.4",
-    "@tsconfig/node20": "^20.1.4",
+    "@tsconfig/node20": "^20.1.5",
     "@types/node": "20.12.11",
     "nx": "18.3.4",
-    "prettier": "^3.2.5",
+    "prettier": "^3.5.3",
     "typescript": "~5.4.5"
   }
 }
