@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.4.1](https://github.com/achieveagility/utils/compare/@aaos/deepmerge-0.4.0...@aaos/deepmerge-0.4.1) (2025-11-10)
+
+### Dependency Updates
+
+* `@aaos/eslint-config` updated to version `0.4.1`
+
+
 # [0.4.0](https://github.com/achieveagility/utils/compare/@aaos/deepmerge-0.3.6...@aaos/deepmerge-0.4.0) (2024-08-30)
 
 ### Dependency Updates
