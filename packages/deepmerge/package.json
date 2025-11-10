@@ -1,6 +1,6 @@
 {
   "name": "@aaos/deepmerge",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Node deep merge utility",
   "source": "src/index.ts",
   "main": "dist/index.cjs",
