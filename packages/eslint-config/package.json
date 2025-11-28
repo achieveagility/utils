@@ -18,15 +18,15 @@
     "build": "echo No build"
   },
   "dependencies": {
-    "@eslint/compat": "^1.2.9",
-    "@eslint/eslintrc": "^3.3.1",
-    "@eslint/js": "^9.27.0",
-    "eslint-plugin-unicorn": "^59.0.1",
-    "globals": "^16.2.0",
-    "typescript-eslint": "^8.32.1"
+    "@eslint/compat": "^2.0.0",
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^9.39.1",
+    "eslint-plugin-unicorn": "^62.0.0",
+    "globals": "^16.5.0",
+    "typescript-eslint": "^8.48.0"
   },
   "devDependencies": {
     "@aaos/nx-publish": "^1.4.0",
-    "prettier": "^3.5.3"
+    "prettier": "^3.7.2"
   }
 }
