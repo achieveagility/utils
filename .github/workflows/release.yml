@@ -43,8 +43,8 @@ jobs:
       - name: Derive appropriate SHAs for base and head for `nx affected` commands
         uses: nrwl/nx-set-shas@v4
 
-      - name: Build libs
-        run: pnpm run build:libs
+      - name: Build
+        run: pnpm run build
 
       - name: Run Nx release
         run: |
