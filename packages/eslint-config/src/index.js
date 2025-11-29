@@ -14,6 +14,8 @@ export const eslintConfig = [
       'object-shorthand': ['error', 'always'],
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/no-unused-vars': 'warn',
+      '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+      '@typescript-eslint/consistent-type-imports': 'error',
       'unicorn/no-null': 'off',
       'unicorn/no-array-reduce': 'warn',
       'unicorn/prevent-abbreviations': [
