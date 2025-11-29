@@ -9,6 +9,13 @@ export const eslintConfig = [
   ...tseslint.configs.recommended,
   eslintPluginUnicorn.configs['recommended'],
   {
+    languageOptions: {
+      globals: globals.builtin,
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
+      },
+    },
     rules: {
       curly: ['error', 'all'],
       'object-shorthand': ['error', 'always'],
