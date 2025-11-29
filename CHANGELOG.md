@@ -1,3 +1,13 @@
+## 0.4.0 (2025-11-29)
+
+### 🚀 Features
+
+- add no floating promises ([#60](https://github.com/achieveagility/utils/pull/60))
+
+### ❤️ Thank You
+
+- achieveagility @achieveagility
+
 ## 0.3.0 (2025-11-29)
 
 ### 🚀 Features
