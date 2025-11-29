@@ -1,3 +1,13 @@
+## 0.3.0 (2025-11-29)
+
+### 🚀 Features
+
+- add consistent type usage ([#57](https://github.com/achieveagility/utils/pull/57))
+
+### ❤️ Thank You
+
+- achieveagility @achieveagility
+
 ## 0.2.0 (2025-11-29)
 
 ### 🚀 Features
