@@ -3,11 +3,16 @@
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
-  "packageManager": "pnpm@9.9.0",
+  "packageManager": "pnpm@10.11.0",
+  "engines": {
+    "node": ">=22.15.1",
+    "pnpm": ">=10.11.0"
+  },
   "scripts": {
     "test": "nx run-many --target=test",
     "build": "nx run-many --target=build",
     "lint": "nx run-many --target=lint",
+    "types:check": "nx run-many --target=types:check",
     "format": "nx run-many --target=format",
     "format:check": "nx run-many --target=format:check"
   },
