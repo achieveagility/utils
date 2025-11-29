@@ -1,22 +1,53 @@
 {
-    "namedInputs": {
-      "default": ["{projectRoot}/**/*"],
-      "nonTest": ["!{projectRoot}/**/*.spec.tsx"]
+  "namedInputs": {
+    "sharedGlobals": [
+      "{workspaceRoot}/.gitignore",
+      "{workspaceRoot}/nx.json",
+      "{workspaceRoot}/package.json",
+      "{workspaceRoot}/pnpm-workspace.yaml",
+      "{workspaceRoot}/.github/**/*"
+    ],
+    "default": ["{projectRoot}/**/*"],
+    "nonTest": ["!{projectRoot}/**/*.spec.tsx"]
+  },
+  "targetDefaults": {
+    "build": {
+      "inputs": ["default", "^nonTest"],
+      "dependsOn": ["^build"]
     },
-    "targetDefaults": {
-      "build": {
-        "inputs": ["default", "^nonTest"],
-        "dependsOn": ["^build"]
+    "dev": {
+      "dependsOn": ["^build"]
+    },
+    "test": {
+      "inputs": ["default", "^nonTest"]
+    },
+    "storybook": {
+      "inputs": ["default", "^nonTest", "sharedGlobals"],
+      "dependsOn": ["^build"]
+    },
+    "storybook:build": {
+      "inputs": ["default", "^nonTest", "sharedGlobals"],
+      "dependsOn": ["^build"]
+    },
+    "version": {
+      "dependsOn": ["^version"]
+    }
+  },
+  "release": {
+    "projects": ["packages/*"],
+    "git": {
+      "commitMessage": "chore: update version [no ci]"
+    },
+    "version": {
+      "conventionalCommits": true,
+      "fallbackCurrentVersionResolver": "disk"
+    },
+    "changelog": {
+      "projectChangelogs": {
+        "file": false,
+        "createRelease": "github"
       },
-      "version": {
-        "dependsOn": ["^version"]
-      },
-      "dev": {
-        "dependsOn": ["^build"]
-      },
-      "test": {
-        "inputs": ["default", "^nonTest"]
-      }
+      "automaticFromRef": true
     }
   }
-  
+}
