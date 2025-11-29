@@ -1,3 +1,13 @@
+## 0.5.0 (2025-11-29)
+
+### 🚀 Features
+
+- add check file ([#61](https://github.com/achieveagility/utils/pull/61))
+
+### ❤️ Thank You
+
+- achieveagility @achieveagility
+
 ## 0.4.0 (2025-11-29)
 
 ### 🚀 Features
