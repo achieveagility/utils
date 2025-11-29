@@ -1,4 +1,4 @@
-import { deepmerge } from './merge';
+import { deepmerge } from './merge.js';
 
 describe('deepmerge', () => {
   it('returns default empty object if inputs are undefined', () => {
