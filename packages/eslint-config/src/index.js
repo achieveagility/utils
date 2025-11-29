@@ -2,6 +2,7 @@ import pluginJs from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import globals from 'globals';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
+import checkFile from 'eslint-plugin-check-file';
 
 export const eslintConfig = [
   { languageOptions: { globals: globals.browser } },
@@ -16,9 +17,27 @@ export const eslintConfig = [
         tsconfigRootDir: import.meta.dirname,
       },
     },
+    plugins: {
+      'check-file': checkFile,
+    },
     rules: {
       curly: ['error', 'all'],
       'object-shorthand': ['error', 'always'],
+      'check-file/folder-naming-convention': [
+        'error',
+        {
+          '**/!(__mocks__)': 'KEBAB_CASE',
+        },
+      ],
+      'check-file/filename-naming-convention': [
+        'error',
+        {
+          '**/*': 'KEBAB_CASE',
+        },
+        {
+          ignoreMiddleExtensions: true,
+        },
+      ],
       '@typescript-eslint/no-explicit-any': 'warn',
       '@typescript-eslint/no-unused-vars': 'warn',
       '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
