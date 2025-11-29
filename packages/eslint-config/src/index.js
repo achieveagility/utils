@@ -9,6 +9,13 @@ export const eslintConfig = [
   ...tseslint.configs.recommended,
   eslintPluginUnicorn.configs['recommended'],
   {
+    languageOptions: {
+      globals: globals.builtin,
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
+      },
+    },
     rules: {
       curly: ['error', 'all'],
       'object-shorthand': ['error', 'always'],
@@ -16,6 +23,7 @@ export const eslintConfig = [
       '@typescript-eslint/no-unused-vars': 'warn',
       '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
       '@typescript-eslint/consistent-type-imports': 'error',
+      '@typescript-eslint/no-floating-promises': 'error',
       'unicorn/no-null': 'off',
       'unicorn/no-array-reduce': 'warn',
       'unicorn/prevent-abbreviations': [
