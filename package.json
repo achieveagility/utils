@@ -14,17 +14,18 @@
     "lint": "nx run-many --target=lint",
     "types:check": "nx run-many --target=types:check",
     "format": "nx run-many --target=format",
-    "format:check": "nx run-many --target=format:check"
+    "format:check": "nx run-many --target=format:check",
+    "update:deps": "pnpm update -r --latest --interactive"
   },
   "devDependencies": {
-    "@nx/devkit": "22.1.3",
-    "@nx/js": "^22.1.3",
+    "@nx/devkit": "22.5.2",
+    "@nx/js": "^22.5.2",
     "@swc-node/register": "^1.11.1",
-    "@swc/core": "^1.13.5",
-    "@tsconfig/node20": "^20.1.8",
-    "@types/node": "24.10.1",
-    "nx": "22.1.3",
-    "prettier": "^3.7.2",
+    "@swc/core": "^1.15.11",
+    "@tsconfig/node20": "^20.1.9",
+    "@types/node": "25.3.0",
+    "nx": "22.5.2",
+    "prettier": "^3.8.1",
     "typescript": "~5.9.3"
   }
 }
